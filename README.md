@@ -9,7 +9,8 @@
   
 출력: 
   - 완벽하게 풀린 스도쿠 퍼즐을 출력합니다
-  - 만약 프로그램이 퍼즐을 풀지 못했다면, 빈칸은 0으로 남겨져 있을 것입니다
+  - ~~만약 프로그램이 퍼즐을 풀지 못했다면, 빈칸은 0으로 남겨져 있을 것입니다~~ 풀 수 있는 스도쿠 문제라면: sudoku.cpp는 무조건 풀 수 있고, sudoku.py는 못 풀 수도 있습니다.
+  - 풀 수 없는 스도쿠 문제는 에러 발생할 수 있습니다.
   - ![출력](/output.PNG)
 
 
@@ -24,5 +25,6 @@ Input:
 
 Output: 
   - It will print out a fully filled Sudoku Puzzle
-  - If the program cannot solve the puzzle, 0 might be printed
+  - ~~If the program cannot solve the puzzle, 0 might be printed~~ if input is solvable: sudoku.cpp always gets the answer, while sudoku.py cannot sometimes.
+  - An error can occur if input is unsolvable sudoku problem.
   - ![Output](/output.PNG)
